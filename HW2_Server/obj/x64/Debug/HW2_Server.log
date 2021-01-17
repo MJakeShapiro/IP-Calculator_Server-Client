@@ -1,0 +1,24 @@
+﻿  Validating architecture
+  Validating sources
+  Copying sources remotely to 'localhost'
+  Starting remote build
+  Compiling sources:
+  server.cpp
+C:\Users\jakes\School\Fall 2020\Operating Systems\HW2\HW2_Server\server.cpp(65,6): warning : unused variable ‘addrlen’ [-Wunused-variable]
+C:\Users\jakes\School\Fall 2020\Operating Systems\HW2\HW2_Server\server.cpp(65,6): warning :    65 |  int addrlen = sizeof(address);
+C:\Users\jakes\School\Fall 2020\Operating Systems\HW2\HW2_Server\server.cpp(65,6): warning :       |      ^~~~~~~
+C:\Users\jakes\School\Fall 2020\Operating Systems\HW2\HW2_Server\server.cpp(137,16): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+C:\Users\jakes\School\Fall 2020\Operating Systems\HW2\HW2_Server\server.cpp(137,16): warning :   137 |  valread = read(sock, &buffer, sizeof(ParamPassStruct));
+C:\Users\jakes\School\Fall 2020\Operating Systems\HW2\HW2_Server\server.cpp(137,16): warning :       |            ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\jakes\School\Fall 2020\Operating Systems\HW2\HW2_Server\server.cpp(132,6): warning : variable ‘valread’ set but not used [-Wunused-but-set-variable]
+C:\Users\jakes\School\Fall 2020\Operating Systems\HW2\HW2_Server\server.cpp(132,6): warning :   132 |  int valread;
+C:\Users\jakes\School\Fall 2020\Operating Systems\HW2\HW2_Server\server.cpp(132,6): warning :       |      ^~~~~~~
+C:\Users\jakes\School\Fall 2020\Operating Systems\HW2\HW2_Server\server.cpp(219,33): warning : conversion from ‘__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type’ {aka ‘int’} to ‘unsigned char’ may change value [-Wconversion]
+C:\Users\jakes\School\Fall 2020\Operating Systems\HW2\HW2_Server\server.cpp(219,33): warning :   219 |   unsigned char ipSegment = ip[i], sMaskSegment = sMask[i];
+C:\Users\jakes\School\Fall 2020\Operating Systems\HW2\HW2_Server\server.cpp(219,33): warning :       |                                 ^
+C:\Users\jakes\School\Fall 2020\Operating Systems\HW2\HW2_Server\server.cpp(219,58): warning : conversion from ‘__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type’ {aka ‘int’} to ‘unsigned char’ may change value [-Wconversion]
+C:\Users\jakes\School\Fall 2020\Operating Systems\HW2\HW2_Server\server.cpp(219,58): warning :   219 |   unsigned char ipSegment = ip[i], sMaskSegment = sMask[i];
+C:\Users\jakes\School\Fall 2020\Operating Systems\HW2\HW2_Server\server.cpp(219,58): warning :       |                                                          ^
+C:\Users\jakes\School\Fall 2020\Operating Systems\HW2\HW2_Server\server.cpp(285,34): warning : conversion from ‘__gnu_cxx::__promote_2<int, unsigned int, double, double>::__type’ {aka ‘double’} to ‘int’ may change value [-Wfloat-conversion]
+C:\Users\jakes\School\Fall 2020\Operating Systems\HW2\HW2_Server\server.cpp(285,34): warning :   285 |  return hostNum = (pow(2, count) - 2);
+C:\Users\jakes\School\Fall 2020\Operating Systems\HW2\HW2_Server\server.cpp(285,34): warning :       |                   ~~~~~~~~~~~~~~~^~~~
